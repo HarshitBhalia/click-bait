@@ -1,6 +1,10 @@
 # Catch-Bait: Indian YouTube Clickbait Detection
 
-Catch-Bait is a multimodal AI-based system designed to detect clickbait content in Indian YouTube videos. The project combines textual, visual, and metadata-based analysis to identify misleading thumbnails and exaggerated titles commonly used to manipulate viewer engagement.
+Catch-Bait is a multimodal AI-based system designed to detect clickbait content in Indian YouTube videos using textual, visual, and metadata analysis.
+
+## 🚀 Live Demo
+
+https://huggingface.co/spaces/aarayann/click_bait
 
 ## Features
 
@@ -9,7 +13,7 @@ Catch-Bait is a multimodal AI-based system designed to detect clickbait content 
 * Thumbnail analysis using CLIP ViT-B/32
 * Metadata-driven feature extraction
 * XGBoost-based classification
-* Streamlit web application for interactive predictions
+* Streamlit web application
 * Custom Indian YouTube dataset creation using YouTube API
 
 ## Tech Stack
@@ -21,12 +25,11 @@ Catch-Bait is a multimodal AI-based system designed to detect clickbait content 
 * OpenCLIP
 * XGBoost
 * Scikit-learn
-* YouTube API
 
 ## Workflow
 
 1. Data collection using YouTube API
-2. Thumbnail, title, transcript, and metadata extraction
+2. Thumbnail and metadata extraction
 3. Exploratory Data Analysis (EDA)
 4. Feature engineering
 5. Multimodal feature fusion
@@ -35,4 +38,4 @@ Catch-Bait is a multimodal AI-based system designed to detect clickbait content 
 
 ## Objective
 
-The goal of this project is to reduce misinformation and improve digital trust by identifying misleading YouTube content targeted toward Indian audiences.
+The goal of this project is to reduce misinformation and improve digital trust by detecting misleading YouTube clickbait content targeted toward Indian audiences.
