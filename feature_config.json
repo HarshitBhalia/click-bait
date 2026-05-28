@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "text_model": "google/muril-base-cased",
+  "image_model": "ViT-B-32 openai",
+  "text_dim": 768,
+  "image_dim": 512,
+  "meta_dim": 12,
+  "total_dim": 1292,
+  "label_map": {
+    "0": "not_clickbait",
+    "1": "clickbait"
+  },
+  "threshold": 0.5,
+  "normalize_text": true,
+  "normalize_img": true,
+  "meta_features": [
+    "log_views",
+    "like_rate",
+    "comment_rate",
+    "duration_hr",
+    "title_len",
+    "caps_ratio",
+    "emoji",
+    "bait_words",
+    "has_q",
+    "has_excl",
+    "tag_count",
+    "h_score"
+  ]
+}
